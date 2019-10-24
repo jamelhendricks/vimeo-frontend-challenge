@@ -7,13 +7,13 @@ import * as serviceWorker from "./serviceWorker";
 
 function Monsoon() {
   return (
-    <div class="row view-container">
+    <div id="monsoon" class="row view-container">
       <div class="col s12 m12 l6 right view-text-container">
         <h3>
           <b>MONSOON III</b>
         </h3>
         <div class="row">
-          <p class="">
+          <p class="lorem">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             tincidunt tortor id nunc condimentum interdum. Quisque facilisis,
             diam luctus maximus auctor, lacus nibh laoreet enim, ac facilisis
@@ -34,13 +34,13 @@ function Monsoon() {
 
 function Beams() {
   return (
-    <div class="row view-container grey darken-4">
+    <div id="beams" class="row view-container grey darken-4">
       <div class="col s12 m12 l6 view-text-container">
         <h3 class="white-text">
           <b>BEAMS</b>
         </h3>
-        <div class="row">
-          <p class="white-text">
+        <div class="row lorem-container">
+          <p class="white-text lorem">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             tincidunt tortor id nunc condimentum interdum. Quisque facilisis,
             diam luctus maximus auctor, lacus nibh laoreet enim, ac facilisis
