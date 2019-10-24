@@ -20,8 +20,8 @@ p {
 
 @media only screen and (max-width: 999px) {
   #monsoon,
-  #beams {
-    border: 1px dashed darkblue;
+  #beams,
+  #move {
     padding-left: 100px !important;
     padding-right: 100px !important;
   }
@@ -29,26 +29,24 @@ p {
 
 @media only screen and (max-width: 600px) {
   #monsoon,
-  #beams {
-    border: 1px dashed darkblue;
+  #beams,
+  #move {
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
 }
 #monsoon,
-#beams {
+#beams,
+#move {
+  margin: 0 0;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 75px;
   padding-bottom: 75px;
 }
 
-#monsoon {
-  border: 2px solid blue;
-}
-
-#beams {
-  border: 2px solid red;
+#move {
+  background-image: linear-gradient(#212121, #cccccc);
 }
 
 /*
@@ -66,7 +64,6 @@ p {
 }
 .view-container {
   /*height: 50vh;*/
-  border: 2px solid red;
 }
 
 .view-image-container {

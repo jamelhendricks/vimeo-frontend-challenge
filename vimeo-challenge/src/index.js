@@ -59,10 +59,38 @@ function Beams() {
   );
 }
 
+function Move() {
+  return (
+    <div id="move" class="row view-container">
+      <div class="col s12 m12 l6 view-text-container right">
+        <h3 class="white-text">
+          <b>Move 2</b>
+        </h3>
+        <div class="row lorem-container">
+          <p class="white-text lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            tincidunt tortor id nunc condimentum interdum. Quisque facilisis,
+            diam luctus maximus auctor, lacus nibh laoreet enim, ac facilisis
+            dui metus eget lorem. Pellentesque malesuada egestas felis et
+            fermentum. Nulla vulputate faucibus massa, maximus vehicula orci
+            faucibus id. Nulla molestie lorem nec elit tristique, sit amet
+            egestas enim volutpat. Phasellus sagittis imperdiet elit, sed
+            interdum orci fringilla a. Sed iaculis placerat egestas.
+          </p>
+        </div>
+      </div>
+      <div class="col s12 m12 l6 left view-image-container">
+        <img src="/move.jpg" alt="Move 2"></img>
+      </div>
+    </div>
+  );
+}
+
 ReactDOM.render(
   <div>
     <Monsoon />
     <Beams />
+    <Move />
   </div>,
   document.getElementById("root")
 );
