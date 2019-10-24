@@ -7,8 +7,8 @@ import * as serviceWorker from "./serviceWorker";
 
 function Monsoon() {
   return (
-    <div id="monsoon-container" class="row">
-      <div id="monsoon-text-container" class="col s12 m12 l6 right">
+    <div class="row view-container">
+      <div class="col s12 m12 l6 right view-text-container">
         <h3>
           <b>MONSOON III</b>
         </h3>
@@ -25,14 +25,47 @@ function Monsoon() {
           </p>
         </div>
       </div>
-      <div id="monsoon-image-container" class="col s12 m12 l6 left">
+      <div class="col s12 m12 l6 left view-image-container">
         <img src="/monsoon.jpg" alt="MOONSOON III"></img>
       </div>
     </div>
   );
 }
 
-ReactDOM.render(<Monsoon />, document.getElementById("root"));
+function Beams() {
+  return (
+    <div class="row view-container grey darken-4">
+      <div class="col s12 m12 l6 view-text-container">
+        <h3 class="white-text">
+          <b>BEAMS</b>
+        </h3>
+        <div class="row">
+          <p class="white-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            tincidunt tortor id nunc condimentum interdum. Quisque facilisis,
+            diam luctus maximus auctor, lacus nibh laoreet enim, ac facilisis
+            dui metus eget lorem. Pellentesque malesuada egestas felis et
+            fermentum. Nulla vulputate faucibus massa, maximus vehicula orci
+            faucibus id. Nulla molestie lorem nec elit tristique, sit amet
+            egestas enim volutpat. Phasellus sagittis imperdiet elit, sed
+            interdum orci fringilla a. Sed iaculis placerat egestas.
+          </p>
+        </div>
+      </div>
+      <div class="col s12 m12 l6 left view-image-container">
+        <img src="/beams.jpg" alt="BEAMS III"></img>
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.render(
+  <div>
+    <Monsoon />
+    <Beams />
+  </div>,
+  document.getElementById("root")
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

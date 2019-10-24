@@ -11,7 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-#monsoon-container {
+.view-container {
   height: 50vh;
 }
 
@@ -19,7 +19,7 @@ code {
   border: 2px solid yellow;
   height: 100%;
 }
-#monsoon-image-container {
+.view-image-container {
   display: flex;
   align-items: center;
   margin: auto;
@@ -27,20 +27,20 @@ code {
   height: 100%;
 }
 
-#monsoon-image-container > img {
+.view-image-container > img {
   border: 2px solid blue;
   align-items: center;
 }
 
 /* resize image when under 900px */
 @media only screen and (max-width: 900px) {
-  #monsoon-image-container > img {
+  .view-image-container > img {
     max-width: 100%;
     height: auto;
   }
 }
 
-#monsoon-text-container {
+.view-text-container {
   display: block;
   height: 100%;
   border: 2px solid green;
